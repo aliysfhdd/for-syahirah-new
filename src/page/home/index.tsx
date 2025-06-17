@@ -6,6 +6,7 @@ import First from '../../assets/first.png'
 import TypeIt from "typeit-react";
 import Syg from "../../assets/syg.png";
 import Bangkok from "../../assets/bangkok.png";
+import Baby from "../../assets/baby.png";
 import Marry from "../../assets/marry.jpeg";
 import Mina from "../../assets/mina.png";
 import {useNavigate} from "react-router-dom";
@@ -88,6 +89,22 @@ const Home = () => {
                                  src={Mina} alt=""/>
                             <h3 className={'text-left'}>Main bareng :)</h3>
                         </div>
+                        <div className="min-w-[168px] w-[168px] h-[240px] flex flex-col gap-[8px] py-[8px]">
+                            <img className="rounded w-[152px] h-[152px] object-cover"
+                                 src={Marry} alt=""/>
+                            <div>
+                                <h3 className={'text-left'}>💍</h3>
+                            </div>
+                        </div>
+
+
+                        <div className="min-w-[168px] w-[168px] h-[240px] flex flex-col gap-[8px] py-[8px]">
+                            <img className="rounded w-[152px] h-[152px] object-cover"
+                                 src={Bangkok} alt=""/>
+                            <div>
+                                <h3 className={'text-left'}>✈️</h3>
+                          </div>
+                        </div>
 
 
                     </div>
@@ -100,21 +117,10 @@ const Home = () => {
                         <div className="min-w-[168px] w-[168px] h-[240px] flex flex-col gap-[8px] py-[8px]">
                             <img className="rounded w-[152px] h-[152px] object-cover"
                                  style={{filter: "grayscale(100%)"}}
-                                 src={Marry} alt=""/>
+                                 src={Baby} alt=""/>
                             <div>
-                                <h3 className={'text-left'}>💍</h3>
-                                <h4 className={'text-left'}>{formatDistanceToNow(new Date('2024-11-01'))}</h4>
-                            </div>
-                        </div>
-
-
-                        <div className="min-w-[168px] w-[168px] h-[240px] flex flex-col gap-[8px] py-[8px]">
-                            <img className="rounded w-[152px] h-[152px] object-cover"
-                                 style={{filter: "grayscale(100%)"}}
-                                 src={Bangkok} alt=""/>
-                            <div>
-                                <h3 className={'text-left'}>✈️</h3>
-                                <h4 className={'text-left'}>{formatDistanceToNow(new Date('2024-11-25'))}</h4>
+                                <h3 className={'text-left'}>👶</h3>
+                                <h4 className={'text-left'}>{formatDistanceToNow(new Date('2025-09-03'))}</h4>
                             </div>
                         </div>
                     </div>
