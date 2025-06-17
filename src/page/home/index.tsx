@@ -5,7 +5,7 @@ import Princess from '../../assets/princess.png'
 import First from '../../assets/first.png'
 import TypeIt from "typeit-react";
 import Syg from "../../assets/syg.png";
-import Bangkok from "../../assets/bangkok.jpg";
+import Bangkok from "../../assets/bangkokk.jpg";
 import Baby from "../../assets/baby.jpg";
 import Marry from "../../assets/marry.jpg";
 import Mina from "../../assets/mina.png";
